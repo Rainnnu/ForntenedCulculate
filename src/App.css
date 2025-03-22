@@ -1,0 +1,79 @@
+a {
+  text-decoration-line: none;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.head {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.head div {
+  margin: 0 auto;
+}
+
+.main {
+  display: grid;
+  margin: 30px auto;
+  grid-template-columns: 400px 400px 400px;
+  justify-content: center;
+  justify-items: left;
+  gap: 10px;
+}
+
+input {
+  width: 50px;
+}
+
+.filebox input {
+  width: auto;
+}
+
+.filebox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+  gap: 10px;
+  border: 2px gray dotted;
+  padding: 5px;
+}
+
+.fileinput {
+  display: flex;
+  gap: 10px;
+}
+
+
+.filebox button {
+  width: 50px;
+
+}
+
+.btnbox {
+  text-align: center;
+}
+
+.gradebtn {
+  width: 100px;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+}
+
+.loadbox {
+  display: flex;
+  height: 20vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
